@@ -4,11 +4,11 @@ $(document).ready(function() {
 	 	var userInput = prompt("Please enter a number between 1 and 100");
 	  	userInput = parseInt(userInput, 10);
 
-	  		if ((userInput !== userInput) || (userInput > 100) || (userInput < 1)) {
+	if ((userInput !== userInput) || (userInput > 100) || (userInput < 1)) {
 	    var userInput = prompt("Not a valid entry, please try again");
 	    userInput = parseInt(userInput, 10);
 
-	    	if ((userInput !== userInput) || (userInput > 100) || (userInput < 1)) {
+	if ((userInput !== userInput) || (userInput > 100) || (userInput < 1)) {
 	      alert("Still not a valid entry, no worries we will choose for you");
 	      userInput = Math.floor((Math.random() * 100) + 1);
 
